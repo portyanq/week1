@@ -1,7 +1,7 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "openeduweb",
+      "X-Author": "Портян, Андрей Вадимович",
       "Access-Control-Allow-Origin": "*"
     }
   }
