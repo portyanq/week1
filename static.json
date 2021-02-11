@@ -1,7 +1,7 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "Портян, Андрей Вадимович",
+      "X-Author": "190659",
       "Access-Control-Allow-Origin": "*"
     }
   }
