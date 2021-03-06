@@ -1,7 +1,7 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "190659",
+      "X-Author": "portyan19",
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plai",
       "charset": "UTF-8"
