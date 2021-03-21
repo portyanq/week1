@@ -4,8 +4,8 @@ but.addEventListener('click', () => {
     const inp = document.querySelector("#inp").value;
     const response = fetch(`${inp}`);
     if (response.ok) { 
-        const answer = response.text();
-        console.log(answer)
+        const answer = response.json();
+        console.log(answer[0])
       }    
 })
 
