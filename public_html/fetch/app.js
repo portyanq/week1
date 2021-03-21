@@ -2,11 +2,9 @@
 const but = document.querySelector("#bt");
 but.addEventListener('click', () => {
     const inp = document.querySelector("#inp").value;
-    const response = fetch(`${inp}`);
-    if (response.ok) { 
-        const answer = response.json();
-        console.log(answer[0])
-      }    
+    fetch(`${inp}`)
+    .then(response => response.json())
+    .then(commits => console.log(commits[0]));   
 })
 
 
