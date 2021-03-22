@@ -1,10 +1,9 @@
 
-const url = "https://jsonplaceholder.typicode.com/users"
 const but = document.querySelector("#bt");
 
 but.addEventListener('click', async () => {
     let inp = document.querySelector("#inp").value;
-    fetch(url)
+    fetch(`${inp}`)
         .then(response => {
             return response.text();
         })
@@ -14,14 +13,4 @@ but.addEventListener('click', async () => {
 })
 
 
-
-
-//fetch(`${inp}`)
-
 // https://jsonplaceholder.typicode.com/users
-
-
-// let response = await fetch(url);
-// if (response.ok) { 
-//   let answer = await response.text();
-// }
